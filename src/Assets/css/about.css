@@ -1,0 +1,476 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+.about-hero-container{
+    /* background: url("https://media.istockphoto.com/photos/team-of-business-people-posing-for-a-photo-picture-id1001766336?k=20&m=1001766336&s=612x612&w=0&h=z0d1sFOojbfs4-YC-ah0MUKS49DgSA5Fknzr1lwGz90="); */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+    font-family: 'Secular One', sans-serif;
+}
+.about-hero-container img{
+    max-height: 90vh;
+    width: 100%;
+}
+.about-hero-container>h1{
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 4rem;
+}
+.about-hero-container>p{
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+    /*margin-top: -100px;*/
+}
+.about-hero-btn{
+    display: flex;
+    column-gap: 1rem;
+    margin-top: 2rem;
+}
+.about-story-header{
+    margin-top: 3rem;
+    font-family: monospace;
+}
+.about-story-header>p{
+    font-size: 18px;
+    color: #61dafb;
+}
+.about-story-image{
+    display: flex;
+    column-gap: 1rem;
+    align-items: center;
+}
+.about-story-image img{
+    height: 50px;
+    border-radius: 12px;
+}
+.about-story-01>h1{
+    font-size: 26px;
+    font-weight: 500;
+}
+.about-story-01>p{
+    padding-left: 2.4rem;
+}
+.about-mission{
+    margin-top:100px;
+    margin-bottom:4rem;
+}
+#textAnimation-mission{
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.about-mission-txt{
+    padding:1rem;
+    margin-top: 2rem;
+}
+.about-mission-img{
+    position:relative;
+
+}
+.about-mission-img img{
+    width: 100%;
+    height: 60vh;
+    border-radius:1rem;
+    display: flex;
+
+}
+.about-mission-img-overlay{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background: rgba(0,0,0,0.6);
+    color:white;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+
+}
+.about-mission-img-overlay:hover{
+    opacity: 1;
+    border-radius:1rem;
+}
+
+.about-mission-img-title{
+    font-size: 2em;
+    font-weight: 500;
+
+}
+.about-mission-img-description{
+    font-size: 1.25em;
+    margin-top: 0.25em;
+}
+
+.about-vission{
+    margin-top:100px;
+    margin-bottom:4rem;
+}
+#textAnimation-vission{
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.about-vission-txt{
+    padding:1rem;
+    margin-top: 2rem;
+}
+.about-vission-img{
+    position:relative;
+
+}
+.about-vission-img img{
+    width: 100%;
+    height: 60vh;
+    border-radius:1rem;
+    display: flex;
+
+}
+.about-vission-img-overlay{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background: rgba(0,0,0,0.6);
+    color:white;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+
+}
+.about-vission-img-overlay:hover{
+    opacity: 1;
+    border-radius:1rem;
+}
+
+.about-vission-img-title{
+    font-size: 2em;
+    font-weight: 500;
+
+}
+.about-vission-img-description{
+    font-size: 1.25em;
+    margin-top: 0.25em;
+}
+
+#textAnimation-vission{
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.about-team-header{
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.card{
+    margin-bottom: 2rem;
+    background: #FFFFFF;
+    border-radius: 2px;
+
+    align-items: center;
+    transition: all .25s linear;
+    box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.4);
+
+
+}
+.card:hover{
+    box-shadow: -1px 10px 29px 0px rgba(0,0,0,0.8);
+}
+
+
+
+.about-team-link{
+    font-size:3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1.3rem;
+}
+.about-team-icon:hover{
+    color: red;
+}
+
+@media only screen and (max-width: 767px) {
+    .card {
+        margin:auto;
+        margin-bottom: 2rem;
+        margin-bottom: 2rem;
+    }
+    .about-mission-txt{
+        padding:1rem;
+        margin-top: 2rem;
+    }
+    .about-vision-txt{
+        padding:1rem;
+        margin-top: 2rem;
+    }
+    .about-mission{
+        margin-top:25px;
+        margin-bottom:4rem;
+    }
+    .about-vission{
+        margin-top:50px;
+        margin-bottom:4rem;
+    }
+
+}
+
+@media only screen and (max-width: 1191px) {
+    .card {
+        margin: auto;
+        margin-bottom: 2rem;
+
+
+    }
+    .about-mission-txt{
+        padding:0.01rem;
+        /*margin-top: 1.2rem;*/
+    }
+    .about-vission-txt{
+        padding:0.2rem;
+        /*margin-top: 2rem;*/
+    }
+    .about-mission{
+        margin-top:70px;
+        margin-bottom:4rem;
+    }
+    .about-vission{
+        margin-top:100px;
+        /* margin-bottom:4rem; */
+    }
+
+}
+
+
+/*team*/
+/*.about-team-header{*/
+/*    margin-bottom: 10rem;*/
+/*}*/
+.team-card-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    column-gap: 2rem;
+    margin-top: 15rem;
+    margin-left: 12rem;
+    margin-bottom: 4rem;
+
+}
+/*.tean-container{*/
+/*    position: relative;*/
+
+
+/*}*/
+.team-card {
+    /*position: absolute;*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 360px;
+    height: 400px;
+    background: #000;
+    margin-bottom: 3rem;
+}
+.team-card .team-image {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.team-card .team-image img {
+    width: 100%;
+    transition: .5s;
+}
+.team-card:hover .team-image img {
+    opacity: .5;
+    transform: translateX(30%);
+}
+.team-card .team-details {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70%;/*100%*/
+    height: 100%;
+    background: #ffc107;
+    transition: .5s;
+    transform-origin: left;
+    transform: perspective(2000px) rotateY(-90deg);
+}
+.team-card:hover .team-details {
+    transform: perspective(2000px) rotateY(0deg);
+}
+.team-card .team-details .team-center {
+    padding: 20px;
+    text-align: center;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.team-card .team-details .team-center h1 {
+    margin: 0;
+    padding: 0;
+    color: #ff3636;
+    line-height: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.team-card .team-details .team-center h1 span {
+    font-size: 14px;
+    color: #262626;
+}
+.team-card .team-details .team-center p {
+    margin: 10px 0;
+    padding: 0;
+    color: #262626;
+}
+
+@media only screen and (max-width: 767px) {
+    .team-card-container{
+        margin-left: 0rem;
+    }
+    .team-card {
+    /*position: absolute;*/
+    margin-left: 12rem;
+    margin-right: -10rem;
+}
+
+}
+
+
+/*===================================*/
+/*team member*/
+/*===================================*/
+
+.teammember-img{
+    height: 400px;
+    width: 300px;
+
+}
+.teammember-img img{
+    height: 100%;
+    width: 80%;
+    padding: 1rem;
+    margin-top: 4rem;
+}
+.teammember-details{
+    padding: 3rem;
+}
+.teammember-details h2{
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+.teammember-details h4{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: -1rem;
+
+}
+.teammember-details span{
+    font-weight: 500;
+    font-size: 1.6rem;
+    margin-bottom: -2rem;
+}
+.social-icons-text{
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+.social-icon{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+@media (max-width: 600px) {
+    .teammember{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .teammember-img img{
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0rem;
+        margin-top: 1rem;
+
+    }
+    .teammember-details{
+        padding: 0rem;
+    }
+}
+
+.team-hero-container{
+    background: url("https://img.freepik.com/free-vector/tiny-developers-programming-website-internet-platform-flat-vector-illustration-cartoon-programmers-near-screen-with-open-code-script-software-development-digital-technology-concept_74855-10168.jpg?w=740&t=st=1662122041~exp=1662122641~hmac=60dfcb308604a90727abe63618c7599e7915b4ea02abc69051485376e16c0881");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 75vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+}
+.team-hero-container>h1{
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 4rem;
+}
+.team-hero-container>p{
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+    /*margin-top: -100px;*/
+}
+
+.teammember-hero-container{
+    background: url("https://img.freepik.com/premium-vector/video-marketing-concept-web-banner-woman-creates-publishes-video-content-online-business_9209-7365.jpg?w=740");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 75vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+}
+.teammember-hero-container>h1{
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 4rem;
+}
+.teammember-hero-container>p{
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+    /*margin-top: -100px;*/
+}
+
+.teammember-hero-container>p>strong{
+    color: greenyellow;
+    font-size: 35px;
+    text-align: center;
+    /*margin-top: -100px;*/
+}
